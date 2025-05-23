@@ -1,3 +1,4 @@
+![Red Hat OpenShift Logo](./assets/openshift-logo.png)
 # WorkShop - Red Hat OpenShift Container Platform
 
 # Laboratorio: ResourceQuota en OpenShift
