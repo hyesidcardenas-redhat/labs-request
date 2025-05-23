@@ -6,7 +6,7 @@
 Objetivo: Analizar cómo las cuotas afectan el despliegue de aplicaciones
 
 ## Laboratorio: Uso de LimitRange en OpenShift
-<a href="./ResourceQuota" target="_blank">Laboratorio: Uso de LimitRange en OpenShift</a>
+<a href="./LimitRange.md" target="_blank">Laboratorio: Uso de LimitRange en OpenShift</a>
 
 Simulación y validación de límites de recursos por contenedor
 
