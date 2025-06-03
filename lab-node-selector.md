@@ -34,14 +34,13 @@ oc edit deployment hello
 ```bash
 
 nodeSelector:
-  student: student01
+  ambiente: pruebas
 
 ---
 ## Paso 4: Verificar el resultado
 
 ```bash
 oc get pods -o wide
-
 
 ---
 ## Paso 5: Arreglar aplicacion con error en su proyecto 
