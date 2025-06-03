@@ -8,7 +8,7 @@ Aprender a etiquetar nodos del clúster y controlar dónde se ejecutan los pods 
 
 ## Asignación por estudiante
 
-Cada estudiante utilizará una etiqueta basada en su nombre asignado (`student01`, `student02`, ..., `student15`).
+Cada estudiante utilizará una etiqueta basada en su nombre asignado ('desarrollo`, `pruebas`, y  `produccion`).
 
 ---
 
@@ -43,4 +43,5 @@ nodeSelector:
 oc get pods -o wide
 
 ---
-## Paso 5: Arreglar aplicacion con error en su proyecto 
+## Paso 5: Arreglar aplicacion con error en su proyecto
+----
