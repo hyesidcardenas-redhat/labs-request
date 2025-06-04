@@ -18,28 +18,33 @@ Ejecuta el siguiente comando para etiquetar el nodo donde quieres que se ejecute
 
 ```bash
 oc label node <nombre-del-nodo> student=student01
-
+```
 
 ---
 ## Paso 2: Crear la aplicación
 
 ```bash
 oc new-app httpd --name=hello
+```
 ---
 ## Paso 3: Agregar nodeSelector al deployment
 
 ```bash
 oc edit deployment hello
+```
 
 ```bash
 
 nodeSelector:
   ambiente: pruebas
+```
 ---
 
 ## Paso 4: Verificar el resultado
 
 ```bash
 oc get pods -o wide
+
+```
 ---
 ## Paso 5: Arreglar aplicacion con error en su proyecto
