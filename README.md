@@ -17,7 +17,7 @@ Simulación y validación de límites de recursos por contenedor
 Este laboratorio tiene como objetivo mostrar cómo configurar y validar probes de salud para una aplicación basada en Apache HTTP Server (`httpd`) utilizando la consola web de OpenShift.
 
 # Laboratorio: Etiquetar Nodos y Usar NodeSelector
-<a href="./lab-node-selector.md" target="_blank">LLaboratorio: Etiquetar Nodos y Usar NodeSelector en OpenShift</a>
+<a href="./lab-node-selector.md" target="_blank">Laboratorio: Etiquetar Nodos y Usar NodeSelector en OpenShift</a>
 
 - Etiquetar nodos.
 - Usar `nodeSelector` para controlar la ubicación de los pods.
